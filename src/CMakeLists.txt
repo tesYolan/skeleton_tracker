@@ -40,10 +40,10 @@ catkin_package(
   DEPENDS system_lib opencv
 )
 
-set(OPENNI2_DIR ~/OpenNI2)
+set(OPENNI2_DIR /home/icog-labs/all_skeleton/working/OpenNI2)
 set(OPENNI2_WRAPPER /opt/ros/indigo/include/openni2_camera/)
-set(NITE2_DIR ~/Openni2/NiTE-2.0.0/)
-set(NITE2_LIB ~/Openni2/NiTE-2.0.0/Redist/libNiTE2.so)
+set(NITE2_DIR /home/icog-labs/all_skeleton/working/NiTE-Linux-x64-2.2/)
+set(NITE2_LIB /home/icog-labs/all_skeleton/working/NiTE-Linux-x64-2.2/Redist/libNiTE2.so)
 
 link_directories(${OPENNI2_DIR}/Bin/x64-Release)
 
